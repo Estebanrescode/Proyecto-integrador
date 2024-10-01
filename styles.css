@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
+
 }
 
 body {
@@ -12,7 +14,11 @@ body {
     height: 100vh;
 
     ul {
+
         position: central;
+
+        position: flex;
+
         display: flex;
         gap: 25px;
 
