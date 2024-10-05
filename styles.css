@@ -12,6 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/370/752/original/technology-background-with-a-mechanical-concept-vector.jpg);
+
+    
 
     ul {
 
@@ -20,14 +23,14 @@ body {
         position: flex;
 
         display: flex;
-        gap: 25px;
+        gap: 1px;
 
         li {
             position: relative;
             list-style: none;
             width: 60px;
             height: 60px;
-            background: #fff;
+            background: black;
             border-radius: 60px;
             cursor: pointer;
             display: flex;
