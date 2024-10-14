@@ -1,46 +1,26 @@
 <!DOCTYPE html>
-<html lang="es">
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROYECTO INTEGRADOR</title>
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>M.A Software</title>
+    <link rel="stylesheet" href="/CSS/login.css">
 </head>
-
 <body>
-    <ul>
-
-    
-
-        <li style="--i:#000000;--j:#0022ff;">
-            <span class="icon"></span><ion-icon name="duplicate"></ion-icon></span>
-            <span class="title">INGRESAR</span>
-        </li>
-        <li style="--i: #000000; --j: #0022ff;">
-            <span class="icon"></span><ion-icon name="checkmark"></ion-icon></span>
-            <span class="title">PENDIENTES</span>
-        </li>
-
-        <li style="--i:#000000; --j: #0022ff;">
-            <span class="icon"></span><ion-icon name="checkmark-done"></ion-icon></span>
-            <span class="title">AUTORIZADAS</span>
-        </li>
-
-        <li style="--i:#000000;--j:#0022ff;">
-            <span class="icon"></span><ion-icon name="close"></ion-icon></span>
-            <span class="title">NO AUTORIZADAS</span>
-        </li>
-        <li style="--i:#000000;--j:#0022ff;">
-
-            <span class="icon"></span><ion-icon name="build"></ion-icon></span>
-            <span class="title">REPARADAS</span>
-        </li>
-        
-    </ul>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <div class="formulario">
+        <h1>M.A Software</h1>
+        <form method="post" action="/login.html">
+            <div class="username">
+                <input type="text" name="usuario" id="usuario" required>
+                <label for="usuario">Usuario</label>
+            </div>
+            <div class="username">
+                <input type="password" name="contraseña" id="contraseña">
+                <label for="contraseña">Contraseña</label>
+            </div>
+            <div class="recordar">¿Olvido su contraseña?</div>
+            <input type="submit" value="Iniciar">
+        </form>
+    </div>
 </body>
-
 </html>
